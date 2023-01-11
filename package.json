@@ -1,0 +1,35 @@
+{
+  "name": "generator-prismo",
+  "version": "1.0.0",
+  "description": "Scaffolders for new projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint",
+    "lint-fix": "npx eslint --fix .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zh3w4ng/generator-prismo.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Zhe Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zh3w4ng/generator-prismo/issues"
+  },
+  "homepage": "https://github.com/zh3w4ng/generator-prismo#readme",
+  "dependencies": {
+    "yeoman-generator": "^5.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.2"
+  }
+}
