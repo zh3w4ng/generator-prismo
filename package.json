@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Scaffolders for new projects",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint": "npx eslint",
     "lint-fix": "npx eslint --fix .",
@@ -22,7 +23,9 @@
   },
   "homepage": "https://github.com/zh3w4ng/generator-prismo#readme",
   "dependencies": {
-    "yeoman-generator": "^5.7.0"
+    "chalk": "^5.2.0",
+    "yeoman-generator": "^5.7.0",
+    "yosay": "^2.0.2"
   },
   "devDependencies": {
     "eslint": "^8.31.0",
